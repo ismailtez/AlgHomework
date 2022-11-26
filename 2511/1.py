@@ -18,4 +18,4 @@ def countSquares(matrix):
             count = count + matrix[i][j] - e_val
     return count
 
-print(countSquares([[1, 0, 1], [1, 1, 0], [1, 1, 0]]))
+print(countSquares([[1, 0, 1], [1, 0, 0], [1, 1, 1]]))
